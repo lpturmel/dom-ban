@@ -7,6 +7,6 @@ export function format(time: number): string {
 }
 export function getTimeDiff(): number {
     const now = new Date();
-    const domUnbanDate = new Date(1648047600 * 1000);
+    const domUnbanDate = new Date(1648134000 * 1000);
     return domUnbanDate.getTime() - now.getTime();
 }
